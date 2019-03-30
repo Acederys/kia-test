@@ -213,3 +213,28 @@ header {
 .credit-form input::placeholder{
     font-size: 16px;
 }
+
+.product{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.product-item{
+    max-width: 570px;
+    position: relative;
+    z-index: 2;
+}
+
+.product-item img{
+    position: absolute;
+    z-index: -1;
+}
+
+.item-caption{
+    font-size: 30px;
+}
+
+.item-caption span{
+    color: #a30606;
+}
