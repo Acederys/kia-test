@@ -221,20 +221,73 @@ header {
 }
 
 .product-item{
-    max-width: 570px;
+    width: 570px;
     position: relative;
     z-index: 2;
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
 }
 
 .product-item img{
     position: absolute;
     z-index: -1;
+    top: 16px;
 }
 
 .item-caption{
     font-size: 30px;
+    display: block;
+    height: 100%;
+    margin-right: 120px;
+    margin-top: 20px;
 }
 
 .item-caption span{
     color: #a30606;
+}
+
+.producе-surprise{
+    font-size: 14px;
+    color: #000000;
+    padding-left: 55px;
+    position: relative;
+    margin-bottom: 28px;
+}
+
+.producе-surprise:before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    background: url(../images/icon.png) no-repeat;
+    background-position: 6px 5px;
+    background-color: #a30606;
+    top: -8px;
+    left: 0;
+}
+
+.product-sale{
+    font-size: 18px;
+    color: #a30606;
+    margin-bottom: 13px;
+}
+
+.product-btn {
+    padding: 17px 20px;
+    font-size: 14px;
+    width: 220px;
+    margin-bottom: 10px;
+}
+
+.kia-credit{
+    text-transform: none;
+    border: 1px solid #a30606;
+    background: #ffffff;
+    color: #a30606;
+}
+
+.special{
+    background: #333333;
 }
