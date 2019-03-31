@@ -291,3 +291,120 @@ header {
 .special{
     background: #333333;
 }
+
+.footer-information {
+    position: relative;
+    padding-bottom: 67px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.map {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+}
+
+.contact{
+    background: #a30606;
+    max-width: 540px;
+    padding-top: 35px;
+    padding-bottom: 53px;
+    padding-left: 35px;
+}
+
+.contact-caption {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.contact-adress{
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.contact-tel {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contact-form {
+    margin-top: 30px;
+}
+
+.contact-form input{
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+    background-color: #a30606;
+    outline: none;
+    color: #ffffff;
+    margin-bottom: 10px;
+    width: 290px;
+}
+
+.contact-form input::placeholder{
+    color: #ff9393;
+    font-size: 14px;
+}
+
+.footer-btn {
+    width: 290px;
+    color: #a30606;
+    background: #ffffff;
+    box-sizing: border-box;
+    padding: 16px 65px;
+}
+
+.modal {
+    position: absolute;
+    left: 35%;
+    width: 425px;
+    padding: 67px 62px 36px 68px;
+    top: 270px;
+    z-index: 4;
+    background: #ffffff;
+    box-sizing: border-box;
+    display: none;
+}
+
+.modal-caption{
+    font-size: 24px;
+    text-align: center;
+}
+
+.modal-form {
+    margin-top: 27px;
+}
+
+.modal-form input{
+    padding-top: 21px;
+    padding-bottom: 16px;
+    font-size: 14px;
+    width: 295px;
+    outline: none;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.modal-form input::placeholder{
+    color: #8d8d8d;
+    font-size: 14px;
+    text-align: center;
+}
+
+.modal-btn{
+    width: 295px;
+    padding-top: 20px;
+    padding-bottom: 16px;
+    margin-top: 10px;
+}
+
+.modal-text{
+    color: #d8d8d8;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 10px;
+}
