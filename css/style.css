@@ -64,6 +64,7 @@ header {
 .header {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .header-logo{
@@ -104,6 +105,10 @@ header {
     font-size: 16px;
     border: none;
     background-color: #a30606;
+}
+
+.menu{
+    display: none;
 }
 
 .main-header{
@@ -407,4 +412,149 @@ header {
     text-align: center;
     font-size: 10px;
     margin-top: 10px;
+}
+
+@media (max-width: 430px) {
+    header{
+        background: linear-gradient(to right, #a30606 80%, #ffffff 20%); 
+    }
+
+    .header-adress{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .header-btn {
+        display: none;
+    }
+
+    .header-logo-kia{
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        width: 30px;
+        height: 2px;
+        background-color: #a30606;
+        position: relative;
+        left: 300px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .menu::before{
+        content: '';
+        display: block;
+        width: 30px;
+        height: 2px;
+        background-color: #a30606;
+        position: absolute;
+        top: -5px;
+    }
+
+    .main-navigaion{
+        background: #a30606; 
+    }
+
+    .menu::after{
+        content: '';
+        display: block;
+        width: 30px;
+        height: 2px;
+        background-color: #a30606;
+        position: absolute;
+        top: 5px;
+    }
+
+    .main-car{
+        max-width: 400px;
+        top: 59px;
+        left: 73px;
+        display: none;
+    }
+
+    h1{
+        font-size: 20px;
+        display: none;
+    }
+
+    .navigation{
+        display: none;
+    }
+
+    .main-header{
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .main-caption{
+        font-size: 30px;
+    }
+
+    .main-btn{
+        font-size: 14px;
+        margin-left: 15px;
+        margin-bottom: 5px;
+        display: none;
+    }
+
+    div.promo {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .caption-navigation{
+        padding-left: 10px;
+    }
+
+    nav{
+        padding-left: 10px;
+    }
+
+    .credit{
+        margin-left: 0;
+        padding-left: 10px;
+        background: #ffffff;
+    }
+
+    .credit-btn{
+        margin-top: 10px;
+        border: 1px solid #ffffff;
+    }
+/* 
+    .menu:hover ~ .main-navigaion > .main-header > h1{
+        display: block;
+    }
+
+    .menu:hover ~ .main-navigaion > .main-header > .main-btn{
+        display: block;
+    }
+
+    .menu:hover ~ .main-navigaion > .main-header > .main-car{
+        display: block;
+    }
+
+    .menu:hover ~ .main-navigaion > .main-header > .promo > .navigation{
+        display: block;
+    }
+
+    .menu:target ~ .main-navigaion > .main-header > h1{
+        display: block;
+    }
+
+    .menu:target ~ .main-navigaion > .main-header > .main-btn{
+        display: block;
+    }
+
+    .menu:target ~ .main-navigaion > .main-header > .main-car{
+        display: block;
+    }
+
+    .menu:target ~ .main-navigaion > .main-header > .promo > .navigation{
+        display: block;
+    } */
+
+
 }
