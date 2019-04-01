@@ -523,38 +523,37 @@ header {
         margin-top: 10px;
         border: 1px solid #ffffff;
     }
-/* 
-    .menu:hover ~ .main-navigaion > .main-header > h1{
-        display: block;
+
+    .product {
+        flex-wrap: wrap;
     }
 
-    .menu:hover ~ .main-navigaion > .main-header > .main-btn{
-        display: block;
+    .product-item {
+        flex-wrap: nowrap;
+        margin-bottom: 20px;
+        padding-left: 20px;
     }
 
-    .menu:hover ~ .main-navigaion > .main-header > .main-car{
-        display: block;
+    .product-item img {
+        max-width: 300px;
     }
 
-    .menu:hover ~ .main-navigaion > .main-header > .promo > .navigation{
-        display: block;
+    .producе-surprise{
+        margin-top: 145px;
     }
 
-    .menu:target ~ .main-navigaion > .main-header > h1{
-        display: block;
+    .product-btn {
+        padding: 17px 20px 27px;
+        font-size: 14px;
+        width: 220px;
+        margin-bottom: 10px;
+    }  
+    
+    .contact{
+        margin-top: 390px;
     }
 
-    .menu:target ~ .main-navigaion > .main-header > .main-btn{
-        display: block;
+    .map{
+        top: 0px;
     }
-
-    .menu:target ~ .main-navigaion > .main-header > .main-car{
-        display: block;
-    }
-
-    .menu:target ~ .main-navigaion > .main-header > .promo > .navigation{
-        display: block;
-    } */
-
-
 }
