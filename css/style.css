@@ -557,3 +557,102 @@ header {
         top: 0px;
     }
 }
+
+@media (min-width: 431px) and (max-width:570px) {
+    
+    header{
+        background: linear-gradient(to right, #a30606 55%, #ffffff 45%);
+    }
+
+    .header{
+        padding-left: 20px;
+        
+    }
+    
+    .header-adress {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .header-btn{
+        margin-left: 270px;
+        position: absolute;
+    }
+
+    .header-logo-kia {
+        position: absolute;
+        top: 20px;
+        top: 102px;
+        left: 335px;
+    }
+
+    .main-header {
+        background: linear-gradient(to right, #a30606 55%, #ffffff 45%);
+    }
+
+    h1 {
+        padding-left: 20px;
+    }
+
+    .main-car{
+        width: 530px;
+        top: 70px;
+        left: 180px;
+    } 
+
+    .main-btn {
+        padding-left: 52px;
+        padding-right: 52px;
+        font-size: 15px;
+        margin-left: 9px;
+    }
+
+    .promo{
+        flex-wrap: wrap;
+        padding-left: 20px;
+    }
+
+    .navigation{
+        max-width: 260px;
+    }
+
+    .nav {
+        max-height: 252px;
+    }
+
+    .credit {
+        max-width: 239px;
+        margin-left: 0;
+        padding-left: 15px;
+    }
+
+    .credit-caption {
+        font-size: 40px;
+    }
+
+    .credit-form {
+        margin-top: -50px;
+    }
+
+    .credit-form input {
+        width: 212px;
+        margin-bottom: 10px;
+    }
+
+    .credit-btn {
+        width: 212px;
+        font-size: 14px;
+    }
+
+    .product{
+        flex-wrap: wrap;
+    }
+
+    .item-caption{
+        margin-right: 50px;
+    }
+
+    .contact{
+        margin-top: 390px;
+    }
+}
