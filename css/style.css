@@ -31,8 +31,27 @@ ul {
 }
 
 
-
 /* new */
+
+@font-face {
+    font-family: 'Kia Medium';
+    src: url('../fonts/KIAM.eot');
+    src: url('../fonts/KIAM.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/KIAM.woff') format('woff'),
+    url('../fonts/KIAM.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kia Bold';
+    src: url('../fonts/KIAB.eot');
+    src: url('../fonts/KIAB.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/KIAB.woff') format('woff'),
+    url('../fonts/KIAB.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 .wrapper {
     max-width: 1180px;
@@ -44,10 +63,12 @@ h1 {
     font-size: 30px;
     font-weight: bold;
     line-height: 45px;
+    font-family: "Kia Bold";
 }
 
 h2 {
     font-size: 24px;
+    font-family: 'Kia Bold';
 }
 
 header {
@@ -79,6 +100,7 @@ header {
     padding-left: 30px;
     position: relative;
     padding-top: 10px;
+    font-family: 'Kia Medium';
 }
 
 .header-adress:before{
@@ -105,6 +127,7 @@ header {
     font-size: 16px;
     border: none;
     background-color: #a30606;
+    font-family: 'Kia Bold';
 }
 
 .menu{
@@ -164,6 +187,7 @@ header {
     color: #ffffff;
     font-size: 16px;
     margin-bottom: 20px;
+    font-family: 'Kia Medium';
 }
 
 .nav a:hover{
@@ -178,7 +202,9 @@ header {
     padding-left: 109px;
     margin-left: 52px;
     position: relative;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
     margin-bottom: -41px;
 }
 
@@ -186,6 +212,7 @@ header {
     font-size: 48px;
     display: block;
     width: 100%;
+    font-family: 'Kia Bold';
 }
 
 .subcaption{
@@ -205,6 +232,7 @@ header {
     padding-top: 17px;
     padding-bottom: 17px;
     max-width: 300px;
+    font-family: 'Kia Medium';
 }
 
 .credit-form input{
@@ -212,17 +240,22 @@ header {
     margin-right: 30px;
     height: 50px;
     padding-left: 17px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
+    font-family: 'Kia Medium';
 }
 
 .credit-form input::placeholder{
     font-size: 16px;
+    font-family: 'Kia Medium';
 }
 
 .product{
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+    flex-wrap: wrap;
 }
 
 .product-item{
@@ -238,6 +271,7 @@ header {
     position: absolute;
     z-index: -1;
     top: 16px;
+    left: 0;
 }
 
 .item-caption{
@@ -245,7 +279,7 @@ header {
     display: block;
     height: 100%;
     margin-right: 120px;
-    margin-top: 20px;
+    font-family: 'Kia Bold';
 }
 
 .item-caption span{
@@ -258,6 +292,7 @@ header {
     padding-left: 55px;
     position: relative;
     margin-bottom: 28px;
+    font-family: 'Kia Medium';
 }
 
 .producе-surprise:before{
@@ -277,6 +312,7 @@ header {
     font-size: 18px;
     color: #a30606;
     margin-bottom: 13px;
+    font-family: 'Kia Bold';
 }
 
 .product-btn {
@@ -284,6 +320,7 @@ header {
     font-size: 14px;
     width: 220px;
     margin-bottom: 10px;
+    font-family: 'Kia Medium';
 }
 
 .kia-credit{
@@ -322,17 +359,20 @@ header {
     font-size: 24px;
     color: #ffffff;
     margin-bottom: 15px;
+    font-family: 'Kia Medium';
 }
 
 .contact-adress{
     color: #ffffff;
     font-size: 16px;
     margin-bottom: 20px;
+    font-family: 'Kia Medium';
 }
 
 .contact-tel {
     color: #ffffff;
     text-decoration: none;
+    font-family: 'Kia Medium';
 }
 
 .contact-form {
@@ -341,6 +381,8 @@ header {
 
 .contact-form input{
     padding: 15px 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
     border: 1px solid #ffffff;
     background-color: #a30606;
@@ -348,29 +390,34 @@ header {
     color: #ffffff;
     margin-bottom: 10px;
     width: 290px;
+    font-family: 'Kia Medium';
 }
 
 .contact-form input::placeholder{
     color: #ff9393;
     font-size: 14px;
+    font-family: 'Kia Medium';
 }
 
 .footer-btn {
     width: 290px;
     color: #a30606;
     background: #ffffff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding: 16px 65px;
 }
 
 .modal {
     position: absolute;
-    left: 35%;
-    width: 425px;
+    max-width: 425px;
     padding: 67px 62px 36px 68px;
     top: 270px;
     z-index: 4;
     background: #ffffff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: none;
 }
@@ -391,6 +438,8 @@ header {
     width: 295px;
     outline: none;
     padding-left: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -556,6 +605,10 @@ header {
     .map{
         top: 0px;
     }
+
+    .modal {
+        left: 0;
+    }
 }
 
 @media (min-width: 431px) and (max-width:570px) {
@@ -630,10 +683,6 @@ header {
         font-size: 40px;
     }
 
-    .credit-form {
-        margin-top: -50px;
-    }
-
     .credit-form input {
         width: 212px;
         margin-bottom: 10px;
@@ -654,5 +703,16 @@ header {
 
     .contact{
         margin-top: 390px;
+    }
+
+    .modal {
+        left: 0;
+    }
+
+}
+
+@media (min-width: 571px) and (max-width: 1200px) {
+    .modal {
+        left: 20%;
     }
 }
